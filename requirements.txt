@@ -1,0 +1,26 @@
+# main environment (Python 3.12)
+# data
+pandas==3.1.0
+numpy==2.5.4
+yfinance==1.7.0
+requests==2.34.2
+statsmodels==0.15.0
+
+# plotting
+matplotlib==3.11.2
+seaborn==0.13.2
+plotly==7.1.0
+
+# models
+scikit-learn==1.9.1
+xgboost==3.4.1
+shap==0.54.1
+tensorflow==2.21.0
+keras==3.15.1
+torch==2.14.1
+fastai==2.8.12
+pytorch-tabnet==4.1.0
+
+# notebooks
+jupyter==1.1.1
+ipykernel==7.4.0

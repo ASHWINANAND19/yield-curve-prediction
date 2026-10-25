@@ -1,0 +1,13 @@
+# separate environment for Lightning Flash (Python 3.10)
+# Flash 0.8.2 is the last release and needs pytorch-lightning < 2.0,
+# so it can't share an environment with the newer torch used by fastai.
+lightning-flash[tabular]==0.8.2
+pytorch-lightning==1.9.5
+torchmetrics==0.10.3
+torch==1.13.1
+pandas==1.5.3
+# old pytorch-lightning imports pkg_resources, which newer setuptools removed
+setuptools==80.10.2
+# flash imports requests but doesn't list it as a dependency
+requests==2.34.2
+ipykernel==7.3.0
