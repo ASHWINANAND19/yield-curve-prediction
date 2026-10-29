@@ -4,6 +4,15 @@ Predicting the **1-month, 5-year and 30-year US Treasury yields 5 trading days (
 
 Data: daily, January 2010 to September 2026, from **Yahoo Finance** (`yfinance`) and **FRED**.
 
+## Authors
+
+MLBD project, Department of AIML, PES University
+
+| Name | SRN |
+|---|---|
+| Ashwin Anand | PES1UG24AM057 |
+| Abhishek Mundanat | PES1UG24AM012 |
+
 ## Main results
 
 The test period runs from January 2023 to September 2026. Neural networks are averaged over 3 random seeds.
